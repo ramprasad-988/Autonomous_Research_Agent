@@ -20,3 +20,31 @@ This project uses multiple AI agents to automate the research process. The user 
 - Chart generation
 - Modern web interface
 - Modular architecture
+---
+
+# 🏗️ System Architecture
+
+```
+User
+   │
+   ▼
+Research Agent
+   │
+   ▼
+Web Search Agent
+   │
+   ▼
+Content Collection Agent
+   │
+   ▼
+Writer Agent
+   │
+   ▼
+Chart Generator
+   │
+   ▼
+PDF Generator
+   │
+   ▼
+PowerPoint Generator
+```
