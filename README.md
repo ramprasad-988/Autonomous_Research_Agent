@@ -193,3 +193,17 @@ Enter a research topic and the system will automatically:
 - requests
 - Pillow
 - python-dotenv
+---
+
+# ✨ Features
+
+- 🔍 Autonomous research on any topic
+- 🧠 AI Planning Agent for research workflow
+- 🌐 Web information collection
+- ✍️ AI-generated research report
+- 📊 Automatic chart generation
+- 🖼️ Automatic image collection
+- 📄 Professional PDF report generation
+- 📽️ PowerPoint (PPT) generation
+- 💻 Streamlit web interface
+- 🤖 Multi-Agent AI architecture
