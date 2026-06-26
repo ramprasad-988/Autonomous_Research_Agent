@@ -48,3 +48,40 @@ PDF Generator
    ▼
 PowerPoint Generator
 ```
+---
+
+# 📁 Project Structure
+
+```
+AI_Autonomous_Research_Agent/
+│
+├── agents/
+│   ├── planner.py
+│   ├── researcher.py
+│   ├── writer.py
+│   ├── image_agent.py
+│   ├── chart_generator.py
+│   ├── pdf_agent.py
+│   └── ppt_agent.py
+│
+├── backend/
+│   └── main.py
+│
+├── frontend/
+│   └── app.py
+│
+├── charts/
+│
+├── docs/
+│   └── images/
+│
+├── images/
+│
+├── reports/
+│
+├── ppts/
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
