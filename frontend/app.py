@@ -4,7 +4,7 @@ import os
 
 sys.path.append(os.path.abspath("."))
 
-from agents.researcher import search_topic
+from agents.researcher import research_topic
 
 st.set_page_config(
     page_title="Autonomous Research Agent",
@@ -24,7 +24,7 @@ if st.button("Generate Research"):
 
         st.info("Searching Web...")
 
-        results = search_topic(topic)
+        results = research_topic(topic)
 
         st.success("Research Completed")
 
