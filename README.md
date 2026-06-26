@@ -157,3 +157,39 @@ Enter a research topic and the system will automatically:
 - Create images
 - Generate a professional PDF
 - Generate a PowerPoint presentation
+---
+
+# 🛠 Technologies Used
+
+### Programming Language
+
+- Python 3.11
+
+### AI & LLM
+
+- Groq API
+- Llama 3
+- Prompt Engineering
+
+### Frontend
+
+- Streamlit
+
+### Backend
+
+- Python
+
+### Visualization
+
+- Matplotlib
+
+### Report Generation
+
+- ReportLab (PDF)
+- python-pptx (PowerPoint)
+
+### Other Libraries
+
+- requests
+- Pillow
+- python-dotenv
