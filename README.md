@@ -126,3 +126,34 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+---
+
+# ▶️ Running the Project
+
+## Start the Backend
+
+```bash
+python backend/main.py
+```
+
+## Start the Frontend
+
+```bash
+streamlit run frontend/app.py
+```
+
+## Open in Browser
+
+```
+http://localhost:8501
+```
+
+Enter a research topic and the system will automatically:
+
+- Generate a research plan
+- Search for information
+- Write the report
+- Generate charts
+- Create images
+- Generate a professional PDF
+- Generate a PowerPoint presentation
