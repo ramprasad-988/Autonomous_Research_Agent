@@ -1,0 +1,14 @@
+streamlit
+openai
+python-dotenv
+tavily-python
+reportlab
+python-pptx
+matplotlib
+pandas
+requests
+Pillow
+groq
+python-dotenv
+reportlab
+streamlit

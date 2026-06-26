@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Generated Reports
+report.pdf
+report.pptx
+
+# Generated Images
+images/
+charts/output/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
