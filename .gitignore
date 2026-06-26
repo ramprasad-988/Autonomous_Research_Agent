@@ -15,7 +15,7 @@ report.pdf
 report.pptx
 
 # Generated Images
-images/
+/images/
 charts/output/
 
 # VS Code
