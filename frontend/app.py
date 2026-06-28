@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.abspath("."))
 
 from agents.researcher import research_topic
+from agents.writer import generate_report
 
 st.set_page_config(
     page_title="Autonomous Research Agent",
@@ -27,6 +28,18 @@ if st.button("Generate Research"):
         results = research_topic(topic)
 
         st.success("Research Completed")
+          
+        content = ""
+
+        for item in results:
+            content += item["content"] + "\n\n"
+
+        st.info("Generating AI Report...")
+
+    
+        report = generate_report(topic, content)
+
+        st.success("AI Report Generated")
 
         for item in results:
 
@@ -37,6 +50,10 @@ if st.button("Generate Research"):
             st.write(item["url"])
 
             st.divider()
+
+        st.header("📄 AI Research Report")
+
+        st.markdown(report)
 
     else:
         st.error("Please enter a topic")
